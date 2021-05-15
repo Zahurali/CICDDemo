@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
+  <suite name="Default suite" duration-ms="70" started-at="2021-05-15T11:41:23 IST" finished-at="2021-05-15T11:41:23 IST">
     <groups>
-      <group name="RegressionTest">
-        <method signature="AdditionTestCases.TestAdditionWithPositiveNegativeNumbers()[pri:2, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="TestAdditionWithPositiveNegativeNumbers" class="QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases"/>
-        <method signature="AdditionTestCases.TestAdditionWithPositiveNumbers()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="TestAdditionWithPositiveNumbers" class="QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases"/>
-      </group> <!-- RegressionTest -->
     </groups>
-    <test name="Default test" duration-ms="94" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
-      <class name="QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases">
-        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="init" is-config="true" duration-ms="10" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
+    <test name="Default test" duration-ms="70" started-at="2021-05-15T11:41:23 IST" finished-at="2021-05-15T11:41:23 IST">
+      <class name="QualityKioskTraning.CalculatorAPICICDDemo.Substraction">
+        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Substraction@627551fb]" name="init" is-config="true" duration-ms="14" started-at="2021-05-15T11:41:23 IST" finished-at="2021-05-15T11:41:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="reinitialize" is-config="true" duration-ms="0" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
+        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Substraction@627551fb]" name="reinitialize" is-config="true" duration-ms="0" started-at="2021-05-15T11:41:23 IST" finished-at="2021-05-15T11:41:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestAdditionWithPositiveNumbers()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="TestAdditionWithPositiveNumbers" duration-ms="8" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
+        <test-method status="PASS" signature="SubtractionWithPositiveNumbers()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Substraction@627551fb]" name="SubtractionWithPositiveNumbers" duration-ms="8" started-at="2021-05-15T11:41:23 IST" finished-at="2021-05-15T11:41:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestAdditionWithPositiveNumbers -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
+        </test-method> <!-- SubtractionWithPositiveNumbers -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Substraction@627551fb]" name="TearDown" is-config="true" duration-ms="1" started-at="2021-05-15T11:41:23 IST" finished-at="2021-05-15T11:41:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestAdditionWithNegativeNumbers()[pri:1, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="TestAdditionWithNegativeNumbers" duration-ms="2" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAdditionWithNegativeNumbers -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestAdditionWithPositiveNegativeNumbers()[pri:2, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="TestAdditionWithPositiveNegativeNumbers" duration-ms="11" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAdditionWithPositiveNegativeNumbers -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestAdditionWithZeroNumbers()[pri:3, instance:QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases@2b552920]" name="TestAdditionWithZeroNumbers" duration-ms="1" started-at="2021-05-15T10:37:08 IST" finished-at="2021-05-15T10:37:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestAdditionWithZeroNumbers -->
-      </class> <!-- QualityKioskTraning.CalculatorAPICICDDemo.AdditionTestCases -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- QualityKioskTraning.CalculatorAPICICDDemo.Substraction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
