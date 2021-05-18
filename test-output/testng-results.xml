@@ -1,117 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="86" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
+  <suite name="Default suite" duration-ms="56" started-at="2021-05-18T09:56:53 IST" finished-at="2021-05-18T09:56:53 IST">
     <groups>
+      <group name="RegressionTest">
+        <method signature="Division.DivisionTestWithTwoPositiveNumbers()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Division@2b552920]" name="DivisionTestWithTwoPositiveNumbers" class="QualityKioskTraning.CalculatorAPICICDDemo.Division"/>
+      </group> <!-- RegressionTest -->
     </groups>
-    <test name="Default test" duration-ms="86" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
-      <class name="QualityKioskTraning.CalculatorAPICICDDemo.Multiplication">
-        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="init" is-config="true" duration-ms="11" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
+    <test name="Default test" duration-ms="56" started-at="2021-05-18T09:56:53 IST" finished-at="2021-05-18T09:56:53 IST">
+      <class name="QualityKioskTraning.CalculatorAPICICDDemo.Division">
+        <test-method status="PASS" signature="init()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Division@2b552920]" name="init" is-config="true" duration-ms="9" started-at="2021-05-18T09:56:53 IST" finished-at="2021-05-18T09:56:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
+        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Division@2b552920]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-18T09:56:53 IST" finished-at="2021-05-18T09:56:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestMultiplicationWithTwoPositiveNumbers(int, int, int)[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="TestMultiplicationWithTwoPositiveNumbers" duration-ms="9" started-at="2021-05-18T09:45:21 IST" data-provider="provideIntegerNumbers" finished-at="2021-05-18T09:45:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="DivisionTestWithTwoPositiveNumbers()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Division@2b552920]" name="DivisionTestWithTwoPositiveNumbers" duration-ms="9" started-at="2021-05-18T09:56:53 IST" finished-at="2021-05-18T09:56:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMultiplicationWithTwoPositiveNumbers -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestMultiplicationWithTwoPositiveNumbers(int, int, int)[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="TestMultiplicationWithTwoPositiveNumbers" duration-ms="1" started-at="2021-05-18T09:45:21 IST" data-provider="provideIntegerNumbers" finished-at="2021-05-18T09:45:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMultiplicationWithTwoPositiveNumbers -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="reinitialize" is-config="true" duration-ms="1" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reinitialize -->
-        <test-method status="PASS" signature="TestMultiplicationWithTwoPositiveNumbers(int, int, int)[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="TestMultiplicationWithTwoPositiveNumbers" duration-ms="1" started-at="2021-05-18T09:45:21 IST" data-provider="provideIntegerNumbers" finished-at="2021-05-18T09:45:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMultiplicationWithTwoPositiveNumbers -->
-        <test-method status="PASS" signature="TestMultiplicationWithTwoPositiveNumbers(int, int, int)[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="TestMultiplicationWithTwoPositiveNumbers" duration-ms="2" started-at="2021-05-18T09:45:21 IST" data-provider="provideIntegerNumbers" finished-at="2021-05-18T09:45:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[90]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMultiplicationWithTwoPositiveNumbers -->
-        <test-method status="PASS" signature="reinitialize()[pri:0, instance:QualityKioskTraning.CalculatorAPICICDDemo.Multiplication@1dfe2924]" name="reinitialize" is-config="true" duration-ms="0" started-at="2021-05-18T09:45:21 IST" finished-at="2021-05-18T09:45:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reinitialize -->
-      </class> <!-- QualityKioskTraning.CalculatorAPICICDDemo.Multiplication -->
+        </test-method> <!-- DivisionTestWithTwoPositiveNumbers -->
+      </class> <!-- QualityKioskTraning.CalculatorAPICICDDemo.Division -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
